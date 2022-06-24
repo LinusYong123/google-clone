@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    padding: 15px;
+    display: flex;
+}
+nav .top-nav{
+    text-decoration: none;
+    color: #000;
+}
+nav .top-nav:hover{
+    text-decoration: underline;
+}
+nav .left{
+    padding: 10px;
+}
+nav .right-1{
+    position: absolute;
+    right: 200px;
+}
+nav .right-2{
+    position: absolute;
+    right: 125px;
+}
+nav .right-3{
+    position: absolute;
+    right: 100px;
+    cursor: pointer;
+}
+.profile-icon{
+    position: absolute;
+    right: 50px;
+    cursor: pointer;
+}
+.profile-icon img{
+    width: 40px;
+    border-radius: 50%;
+}
+.logo{
+    margin: auto;
+    display: block;
+}
+.main{
+    padding-top: 10%;
+    text-align: center;
+}
+input {
+    width: 550px;
+    padding: 15px 20px 15px 20px;
+    border-radius: 50px;
+    border: 1px solid lightgray;
+}
+.p{
+    padding-top: 10px;
+}
+button{
+    padding: 10px;
+    border: 0;
+    cursor: pointer;
+}
